@@ -163,6 +163,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 
 4.4.Monitor CloudWatch logs for Lambda execution results.
+
 Successful Backups
 
 ![image_alt]()
