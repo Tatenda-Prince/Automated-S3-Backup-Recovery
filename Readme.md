@@ -143,31 +143,33 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 ## Step 4: Testing the System
 4.1.Upload a files to the primary S3 bucket.
-```language
-
-```
 
 ![image_alt]()
 
 
 4.2.Verify versioning by checking multiple versions of the file.
+
 ![image_alt]()
 
 
 4.3.Confirm replication in the backup S3 bucket (secondary region).
+
 ![image_alt]()
 
 
 4.4.Force a failure and check if SNS notifications are triggered.
+
 ![image_alt]()
 
 
 4.4.Monitor CloudWatch logs for Lambda execution results.
 Successful Backups
+
 ![image_alt]()
 
 
 Error Backups
+
 ![image_alt]()
 
 
