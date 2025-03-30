@@ -1,0 +1,30 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS Credentials (DO NOT COMMIT!)
+.aws/
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Lambda package
+lambda.zip
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore environment variables
+.env
+
