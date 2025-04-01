@@ -149,7 +149,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 4.2.Verify versioning by checking multiple versions of the file.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/28164f8f9e5b86da575faae03e092e8c74666eb3/screenshots/Screenshot%202025-04-01%20100651.png)
 
 
 4.3.Confirm replication in the backup S3 bucket (secondary region).
