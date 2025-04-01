@@ -117,7 +117,7 @@ terraform apply
 ```
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/e9eef2bf3b8ddeb9075e674d97c14f5eab4071e1/screenshots/Screenshot%202025-03-30%20200701.png)
 
 
 ## Success
