@@ -105,7 +105,7 @@ The command should generate a success message, confirming that it is valid, as d
 ```language
 terraform plan 
 ```
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/ff397f740feedec4deacbc9b57b10ed20f2c3c81/screenshots/Screenshot%202025-03-30%20200410.png)
 
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
 
