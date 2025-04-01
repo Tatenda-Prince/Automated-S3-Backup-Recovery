@@ -157,7 +157,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 ![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/15c482f829509180b03ebe32c16994261221f682/screenshots/Screenshot%202025-04-01%20101210.png)
 
 
-4.4.Force a failure and check if SNS notifications are triggered.
+4.4.Force a failure and check if SNS notifications are triggered. Remove the action `"s3:PutObject"` from your lambda_s3_backup_policy and that will trigger failure.
 
 ![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/9f2e3e5e6446bb9bb9473f25a3942b0ed35a06dd/screenshots/Screenshot%202025-04-01%20101923.png)
 
