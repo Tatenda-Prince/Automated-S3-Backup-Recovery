@@ -166,7 +166,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 Successful Backups
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/2f4143c198f129683426fb1ca4359ec604c8a18f/screenshots/Screenshot%202025-04-01%20100614.png)
 
 
 Error Backups
