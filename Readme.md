@@ -171,7 +171,7 @@ Successful Backups
 
 Error Backups
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/66b2fa39c842971bc67722770913fe577702d8fc/screenshots/Screenshot%202025-04-01%20101857.png)
 
 
 ## Future Enhancements
