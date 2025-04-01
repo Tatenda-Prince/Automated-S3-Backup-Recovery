@@ -87,7 +87,7 @@ terraform init
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/11be3367350f45cdb22564cf963a972773f69efd/screenshots/Screenshot%202025-03-30%20200009.png)
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
 
