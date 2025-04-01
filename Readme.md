@@ -134,7 +134,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.2.In the AWS Management Console, head to the AWS Lambda and verify that there is Lambda Function  as shown below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/d8793bbbff25ce8aae8809b66f2e527e759b6567/screenshots/Screenshot%202025-03-30%20200809.png)
 
 3.3.In the AWS Management Console, head to the Amazon SNS dashboard and verify that you have a topic  created as shown below
 
