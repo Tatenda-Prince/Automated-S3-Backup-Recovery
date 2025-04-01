@@ -144,7 +144,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 ## Step 4: Testing the System
 4.1.Upload a files to the primary S3 bucket.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/f11605f66eb798af63fbbae5cf633afaf7975ae5/screenshots/Screenshot%202025-04-01%20100125.png)
 
 
 4.2.Verify versioning by checking multiple versions of the file.
