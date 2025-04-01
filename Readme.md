@@ -97,7 +97,7 @@ terraform validate
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/86d05fcf08cfeafa7810415db0fc0dc222fd0eff/screenshots/Screenshot%202025-03-30%20200204.png)
 
 
 2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
