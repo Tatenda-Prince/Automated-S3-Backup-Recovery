@@ -123,7 +123,7 @@ Terraform will initiate the process of applying all the changes to the infrastru
 ## Success
 The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/ac5cadd41a67cca23a340849627987c1b1be8b73/screenshots/Screenshot%202025-03-30%20200713.png)
 
 
 ## Step 3: Verify creation of our resources
