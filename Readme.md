@@ -138,7 +138,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.3.In the AWS Management Console, head to the Amazon SNS dashboard and verify that you have a topic  created as shown below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/69b666e3b4996b3d069f9f3f78d9a9eaa1225bb8/screenshots/Screenshot%202025-03-30%20200833.png)
 
 
 ## Step 4: Testing the System
