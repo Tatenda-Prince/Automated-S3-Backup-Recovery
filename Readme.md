@@ -1,6 +1,6 @@
 ## Automated S3 Backup & Recovery Using Terraform
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/d19a37b74e1a3cb1a200b2b97e64541061d82ed9/screenshots/Screenshot%202025-03-29%20214616.png)
 
 
 ## Project Overview
@@ -87,7 +87,7 @@ terraform init
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/11be3367350f45cdb22564cf963a972773f69efd/screenshots/Screenshot%202025-03-30%20200009.png)
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
 
@@ -97,7 +97,7 @@ terraform validate
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/86d05fcf08cfeafa7810415db0fc0dc222fd0eff/screenshots/Screenshot%202025-03-30%20200204.png)
 
 
 2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
@@ -105,7 +105,7 @@ The command should generate a success message, confirming that it is valid, as d
 ```language
 terraform plan 
 ```
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/ff397f740feedec4deacbc9b57b10ed20f2c3c81/screenshots/Screenshot%202025-03-30%20200410.png)
 
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
 
@@ -117,61 +117,61 @@ terraform apply
 ```
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/e9eef2bf3b8ddeb9075e674d97c14f5eab4071e1/screenshots/Screenshot%202025-03-30%20200701.png)
 
 
 ## Success
 The process should now conclude with a message indicating “Apply complete”, stating the total number of added, modified, and destroyed resources, accompanied by several resources.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/ac5cadd41a67cca23a340849627987c1b1be8b73/screenshots/Screenshot%202025-03-30%20200713.png)
 
 
 ## Step 3: Verify creation of our resources
 
 3.1.In the AWS Management Console, head to the Amazon S3 Console and verify that you have two Buckets
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/9b0737a6e7568584224ac9a9ae2e9fbdbdce26f8/screenshots/Screenshot%202025-03-30%20200744.png)
 
 3.2.In the AWS Management Console, head to the AWS Lambda and verify that there is Lambda Function  as shown below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/d8793bbbff25ce8aae8809b66f2e527e759b6567/screenshots/Screenshot%202025-03-30%20200809.png)
 
 3.3.In the AWS Management Console, head to the Amazon SNS dashboard and verify that you have a topic  created as shown below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/69b666e3b4996b3d069f9f3f78d9a9eaa1225bb8/screenshots/Screenshot%202025-03-30%20200833.png)
 
 
 ## Step 4: Testing the System
 4.1.Upload a files to the primary S3 bucket.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/f11605f66eb798af63fbbae5cf633afaf7975ae5/screenshots/Screenshot%202025-04-01%20100125.png)
 
 
 4.2.Verify versioning by checking multiple versions of the file.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/28164f8f9e5b86da575faae03e092e8c74666eb3/screenshots/Screenshot%202025-04-01%20100651.png)
 
 
 4.3.Confirm replication in the backup S3 bucket (secondary region).
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/15c482f829509180b03ebe32c16994261221f682/screenshots/Screenshot%202025-04-01%20101210.png)
 
 
-4.4.Force a failure and check if SNS notifications are triggered.
+4.4.Force a failure and check if SNS notifications are triggered. Remove the action `"s3:PutObject"` from your lambda_s3_backup_policy and that will trigger failure.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/9f2e3e5e6446bb9bb9473f25a3942b0ed35a06dd/screenshots/Screenshot%202025-04-01%20101923.png)
 
 
 4.4.Monitor CloudWatch logs for Lambda execution results.
 
 Successful Backups
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/2f4143c198f129683426fb1ca4359ec604c8a18f/screenshots/Screenshot%202025-04-01%20100614.png)
 
 
 Error Backups
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/66b2fa39c842971bc67722770913fe577702d8fc/screenshots/Screenshot%202025-04-01%20101857.png)
 
 
 ## Future Enhancements
