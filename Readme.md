@@ -130,7 +130,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 3.1.In the AWS Management Console, head to the Amazon S3 Console and verify that you have two Buckets
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/9b0737a6e7568584224ac9a9ae2e9fbdbdce26f8/screenshots/Screenshot%202025-03-30%20200744.png)
 
 3.2.In the AWS Management Console, head to the AWS Lambda and verify that there is Lambda Function  as shown below
 
