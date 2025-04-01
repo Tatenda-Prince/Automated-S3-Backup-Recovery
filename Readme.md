@@ -1,6 +1,6 @@
 ## Automated S3 Backup & Recovery Using Terraform
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/d19a37b74e1a3cb1a200b2b97e64541061d82ed9/screenshots/Screenshot%202025-03-29%20214616.png)
 
 
 ## Project Overview
