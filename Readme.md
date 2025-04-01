@@ -154,7 +154,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 4.3.Confirm replication in the backup S3 bucket (secondary region).
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/15c482f829509180b03ebe32c16994261221f682/screenshots/Screenshot%202025-04-01%20101210.png)
 
 
 4.4.Force a failure and check if SNS notifications are triggered.
