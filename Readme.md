@@ -159,7 +159,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 
 4.4.Force a failure and check if SNS notifications are triggered.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Automated-S3-Backup-Recovery/blob/9f2e3e5e6446bb9bb9473f25a3942b0ed35a06dd/screenshots/Screenshot%202025-04-01%20101923.png)
 
 
 4.4.Monitor CloudWatch logs for Lambda execution results.
